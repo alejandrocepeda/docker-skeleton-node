@@ -35,7 +35,7 @@ git pull origin vormir
 * app/config/envs/xandar.env
 
 
-### 5. Install docker compose for linux ###
+### 5. Install docker compose ###
 
 1. Linux
 ```ssh
