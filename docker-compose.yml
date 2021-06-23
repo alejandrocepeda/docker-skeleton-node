@@ -1,0 +1,18 @@
+version: '3.3'
+
+services:
+    api:
+      build:
+        context: . 
+        args:
+          - NODE_VERSION=${NODE_VERSION}
+      environment:
+        NPM_RUN_SCRIPT: ${NPM_RUN_SCRIPT}
+        PORT: ${NODE_PORT}
+      container_name: ${CONTAINER_NAME}
+      volumes:
+        - ${HOST_CODE_PATH}:/src/  
+      ports:
+        - ${NODE_PORT}:${NODE_PORT}
+
+  
