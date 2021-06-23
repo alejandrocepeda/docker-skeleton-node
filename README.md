@@ -11,10 +11,14 @@ NODE_VERSION=14
 HOST_CODE_PATH=./app
 NODE_PORT=3000
 CONTAINER_NAME=deadpool
+```
+
+### 2. This variable define NODE_ENV environment
+```
 NPM_RUN_SCRIPT=vormir
 ```
 
-### 2. Enter in app folder and run ###
+### 3. Enter in app folder and run ###
 
 ```ssh
 git init
@@ -22,7 +26,7 @@ git remote add origin git@github.com:mercadoni/deadpool.git
 git pull origin vormir
 ```
 
-### 3. You need the following environment files ###
+### 4. You need the following environment files ###
 
 * app/config/envs/production.env
 * app/config/envs/stress.env
@@ -31,7 +35,7 @@ git pull origin vormir
 * app/config/envs/xandar.env
 
 
-### 4. Install docker compose for linux ###
+### 5. Install docker compose for linux ###
 
 1. Linux
 ```ssh
@@ -44,7 +48,10 @@ sudo chmod +x /usr/local/bin/docker-compose
 * Docker Desktop for Mac include compose, for instructions see https://docs.docker.com/docker-for-mac/install/
 
 
-### 5. Run with docker compose
+### 6. Run with docker compose
 ```ssh
-docker-compose up -d
+docker-compose up
 ```
+
+### This produces
+![alt text](https://raw.githubusercontent.com/alejandrocepeda/images/main/2021-06-23_00-30.png)
