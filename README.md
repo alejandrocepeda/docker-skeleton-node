@@ -1,4 +1,4 @@
-# skeleton-docker-deadpool 💀🐳 #
+# skeleton-docker-deadpool 💀🐳  #
 
 This is a skeleton docker project that can be used to quickly start deadpool or any node project.
 
@@ -35,7 +35,7 @@ git pull origin vormir
 * app/config/envs/xandar.env
 
 
-### 5. Install docker compose ###
+### 5. Install docker compose for linux ###
 
 1. Linux
 ```ssh
@@ -48,10 +48,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 * Docker Desktop for Mac include compose, for instructions see https://docs.docker.com/docker-for-mac/install/
 
 
-### 6. Run with docker compose
+### 6. Finnaly run and to enjoy
 ```ssh
 docker-compose up
 ```
-
-### This produces
-![alt text](https://raw.githubusercontent.com/alejandrocepeda/images/main/2021-06-23_00-30.png)
