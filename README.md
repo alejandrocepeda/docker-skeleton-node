@@ -4,7 +4,13 @@ This is a skeleton docker project that can be used to quickly start deadpool or 
 
 ## Usage Steps
 
-### 1. Open your .env file and change:
+### 1. Clone repo
+
+```sh
+git clone git@github.com:alejandrocepeda/docker-skeleton-node.git
+```
+
+### 2. Open your .env file and change:
 
 ```
 NODE_VERSION=14
@@ -13,12 +19,12 @@ NODE_PORT=3000
 CONTAINER_NAME=deadpool
 ```
 
-### 2. This variable define NODE_ENV environment
+### 3. This variable define NODE_ENV environment
 ```
 NPM_RUN_SCRIPT=vormir
 ```
 
-### 3. Enter in app folder and run ###
+### 4. Enter in app folder and run ###
 
 ```ssh
 git init
@@ -26,7 +32,7 @@ git remote add origin git@github.com:mercadoni/deadpool.git
 git pull origin vormir
 ```
 
-### 4. You need the following environment files ###
+### 5. You need the following environment files ###
 
 * app/config/envs/production.env
 * app/config/envs/stress.env
@@ -35,7 +41,7 @@ git pull origin vormir
 * app/config/envs/xandar.env
 
 
-### 5. Install docker compose for linux ###
+### 6. Install docker compose for linux ###
 
 1. Linux
 ```ssh
