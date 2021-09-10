@@ -31,6 +31,7 @@ NPM_RUN_SCRIPT=vormir
 git init
 git remote add origin git@github.com:mercadoni/deadpool.git
 git pull origin vormir
+npm i
 ```
 
 ### 5. You need the following environment files ###
