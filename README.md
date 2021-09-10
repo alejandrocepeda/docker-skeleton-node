@@ -58,5 +58,6 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 ### 6. Finnaly run and to enjoy
 ```ssh
-docker-compose up
+docker-compose up -d
+docker logs -f deadpool
 ```
