@@ -25,7 +25,15 @@ CONTAINER_NAME=deadpool
 NPM_RUN_SCRIPT=vormir
 ```
 
-### 4. You need the following environment files ###
+### 4. Enter in app folder and run ###
+
+```ssh
+git init
+git remote add origin git@github.com:mercadoni/deadpool.git
+git pull origin vormir
+```
+
+### 5. You need the following environment files ###
 
 * app/config/envs/production.env
 * app/config/envs/stress.env
@@ -33,13 +41,6 @@ NPM_RUN_SCRIPT=vormir
 * app/config/envs/vormir.env
 * app/config/envs/xandar.env
 * 
-### 5. Enter in app folder and run ###
-
-```ssh
-git init
-git remote add origin git@github.com:mercadoni/deadpool.git
-git pull origin vormir
-```
 
 ### 6. Install docker compose for linux ###
 
