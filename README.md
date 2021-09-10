@@ -8,6 +8,7 @@ This is a skeleton docker project that can be used to quickly start deadpool or 
 
 ```sh
 git clone git@github.com:alejandrocepeda/docker-skeleton-node.git
+cd docker-skeleton-node
 ```
 
 ### 2. Open your .env file and change:
